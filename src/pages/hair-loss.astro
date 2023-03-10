@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TopNav from '../components/common/TopNav';
+import BreadCrumbBar from '../components/common/BreadCrumbBar';
+import AskDoctor from '../components/common/AskDoctor/AskDoctor.astro';
+import FooterComponent from '../components/common/FooterComponent';
+
+---
+<Layout title="Helloworld ">
+    <!-- <CarouselComponent client:idle /> -->
+    <TopNav />
+    <BreadCrumbBar content={['Ask a Doctor Online', 'Hair Loss']} />
+    <AskDoctor />
+    <FooterComponent />
+</Layout>
