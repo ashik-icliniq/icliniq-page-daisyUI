@@ -8,7 +8,12 @@ Accepted
 
 ## Context
 
-Since we have choosen Tailwind CSS as the CSS framework. We definitely needed a Component framework on top of the base Tailwind Css. For that several frameworks are considered such as Flowbite, TailwindUI and DaisyUI.
+We have decided to use Tailwind CSS as the CSS framework. We need a Component framework on top of Tailwind Css to make our developers life easy.
+
+**Frameworks Considered :**
+1. TailwindUI
+2. Flowbite
+3. DaisyUI
 
 **Points that are considered in Daisy UI :**
 1. Comparitively good component design than Flowbite.
