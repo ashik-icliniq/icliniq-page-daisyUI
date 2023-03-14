@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Card, Button, Collapse } from 'react-daisyui'
 
 function ParadeInside() {
+
   return (
     <div>
       <Card className='shadow-lg shadow-slate-400'>
