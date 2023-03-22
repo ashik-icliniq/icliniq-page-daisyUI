@@ -1,9 +1,11 @@
 ---
+
 export interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
+
 ---
 
 <!DOCTYPE html>
@@ -14,6 +16,110 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="theme-color" content="#2a53e7" />
+		<meta name="msvalidate.01" content="E95D4B22FE47F7B2AC8806B27278C1DB" />
+		<meta name="msvalidate.01" content="BBCCE3A060CA07F100E4E9FD4CD4A046" />
+		<meta
+			name="norton-safeweb-site-verification"
+			content="-1kjmayo4ituotjz4h7avxsbtbp3c2b-1qe4uoq044ho9u6ehh-80991c35apl5w8lyqsntq26lsl6r4alqswwxo06qzouwtxqatjwtf8o6e950o1-1utetn62c6aggx"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="fb:pages" content="121411707928852" />
+		<meta
+			name="google-site-verification"
+			content="6CsmkYYIlh9uS4XPqT-QfuMn0nE6zeS_iVihecZWf-c"
+		/>
+		<meta name="robots" content="noindex" />
+		<script type="text/javascript">
+			window._vwo_code =
+				window._vwo_code ||
+				(function () {
+					var account_id = 517598,
+						settings_tolerance = 2000,
+						library_tolerance = 2500,
+						use_existing_jquery = false,
+						is_spa = 1,
+						hide_element = "body",
+						/* DO NOT EDIT BELOW THIS LINE */
+						f = false,
+						d = document,
+						code = {
+							use_existing_jquery: function () {
+								return use_existing_jquery;
+							},
+							library_tolerance: function () {
+								return library_tolerance;
+							},
+							finish: function () {
+								if (!f) {
+									f = true;
+									var a = d.getElementById(
+										"_vis_opt_path_hides"
+									);
+									if (a) a.parentNode.removeChild(a);
+								}
+							},
+							finished: function () {
+								return f;
+							},
+							load: function (a) {
+								var b = d.createElement("script");
+								b.src = a;
+								b.type = "text/javascript";
+								b.innerText;
+								b.onerror = function () {
+									_vwo_code.finish();
+								};
+								d.getElementsByTagName("head")[0].appendChild(
+									b
+								);
+							},
+							init: function () {
+								window.settings_timer = setTimeout(function () {
+									_vwo_code.finish();
+								}, settings_tolerance);
+								var a = d.createElement("style"),
+									b = hide_element
+										? hide_element +
+										  "{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}"
+										: "",
+									h = d.getElementsByTagName("head")[0];
+								a.setAttribute("id", "_vis_opt_path_hides");
+								a.setAttribute("type", "text/css");
+								if (a.styleSheet) a.styleSheet.cssText = b;
+								else a.appendChild(d.createTextNode(b));
+								h.appendChild(a);
+								this.load(
+									"https://dev.visualwebsiteoptimizer.com/j.php?a=" +
+										account_id +
+										"&u=" +
+										encodeURIComponent(d.URL) +
+										"&f=" +
+										+is_spa +
+										"&r=" +
+										Math.random()
+								);
+								return settings_timer;
+							},
+						};
+					window._vwo_settings_timer = code.init();
+					return code;
+				})();
+		</script>
+		<script
+			defer
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-27070081-1"
+		></script>
+		<script type="text/partytown">
+			 window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'UA-27070081-1');
+		</script>
 	</head>
 	<body>
 		<slot />
